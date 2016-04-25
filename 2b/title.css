@@ -1,0 +1,43 @@
+body {
+    background-image: url("images/titlebg.png");
+     background-position: center center; /* Keeps image centered vertically and horizontally */ 
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Stops image moving when scrolling through content */
+    background-size: cover; /* Scales image based on container size */
+    color: #ffffff;
+    overflow: hidden; /* Stops user being able to scroll */
+}
+
+.subtitle {
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    color: #000;
+    margin-top: 425px;
+    font-size: 25px;
+    
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.issueinfo {
+    text-align: center;
+    color: #4e5056;
+    font-size: 90%;
+    margin-top: -20px;
+    
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+    
+}
